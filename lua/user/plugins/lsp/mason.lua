@@ -17,22 +17,13 @@ mason.setup()
 
 mason_lspconfig.setup({
 	ensure_installed = {
-		"ansiblels",
 		"bashls",
 		"dockerls",
-		"eslint",
-		"gopls",
 		"jsonls",
-		"jdtls",
 		"marksman",
-		"pyright",
-		"sqlls",
 		"lemminx",
-		"tsserver",
-		"html",
-		"cssls",
-		"tailwindcss",
 		"sumneko_lua",
+		"yamlls",
 	},
 })
 
